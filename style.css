@@ -1,3 +1,6 @@
+body{
+    background-color: gray;
+}
 .container {
     height: 400px;
     width: 250px;
@@ -6,6 +9,10 @@
     padding: 5px;
     border-radius: 5px;
     box-shadow: 4px 5px 6px 4px rgba(23, 56, 79, 0.341);
+    background-image: url("background\ image.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position: center center;
 }
 
 #screen {
@@ -17,7 +24,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(243, 249, 249);
     padding-left: 5px;
 }
 
@@ -32,7 +39,7 @@
 }
 
 .number {
-    color: white;
+    color: rgb(242, 8, 8);
     height: 40px;
     width: 50px;
     display: flex;
@@ -43,6 +50,8 @@
     border: 2px solid white;
     cursor: pointer;
     text-align: center;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .operation-container {
@@ -54,7 +63,7 @@
 }
 
 .operation {
-    color: white;
+    color: rgb(255, 0, 0);
     height: 40px;
     border-radius: 5px;
     width: 50px;
@@ -65,19 +74,25 @@
     border: 2px solid white;
     text-align: center;
     cursor: pointer;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .result {
     margin: auto;
     margin-top: 40px;
-    color: white;
+    color: rgb(241, 13, 13);
     height: 40px;
     border-radius: 5px;
     width: 230px;
     border: 2px solid white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     font-size: xx-large;
+    font-size: x-large;
+    font-weight: 700;
 }
 
 .number:active {
