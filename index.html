@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="screen"></div>
+        <div class="answer">Ans:
+            <div id="calculatedvalue"></div>
+        </div>
+        <div class="number-container">
+            <div onclick="clicknumber(1)" class="number">1</div>
+            <div onclick="clicknumber(2)" class="number">2</div>
+            <div onclick="clicknumber(3)" class="number">3</div>
+            <div onclick="clicknumber(4)" class="number">4</div>
+            <div onclick="clicknumber(5)" class="number">5</div>
+            <div onclick="clicknumber(6)" class="number">6</div>
+            <div onclick="clicknumber(7)" class="number">7</div>
+            <div onclick="clicknumber(8)" class="number">8</div>
+            <div onclick="clicknumber(9)" class="number">9</div>
+            <div onclick="clicknumber(0)" class="number">0</div>
+        </div>
+        <div class="operation-container">
+            <div onclick="clicknumber('+')" class="operation">+</div>
+            <div onclick="clicknumber('-')" class="operation">-</div>
+            <div onclick="clicknumber('*')" class="operation">*</div>
+            <div onclick="clicknumber('/')" class="operation">/</div>
+        </div>
+        <div onclick="calculate()" class="result">=</div>
+    </div>
+     
+     <script src="script.js"></script>
+</body>
+
+</html>
