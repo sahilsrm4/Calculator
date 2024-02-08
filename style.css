@@ -9,7 +9,7 @@ body{
     padding: 5px;
     border-radius: 5px;
     box-shadow: 4px 5px 6px 4px rgba(23, 56, 79, 0.341);
-    background-image: url("background\ image.jpg");
+    background-color: rgb(5, 43, 63);
     background-size: cover;
     background-position: center center;
     background-position: center center;
@@ -39,7 +39,7 @@ body{
 }
 
 .number {
-    color: rgb(242, 8, 8);
+    color: rgb(8, 242, 176);
     height: 40px;
     width: 50px;
     display: flex;
@@ -63,7 +63,7 @@ body{
 }
 
 .operation {
-    color: rgb(255, 0, 0);
+    color: rgb(8, 242, 176);
     height: 40px;
     border-radius: 5px;
     width: 50px;
@@ -81,7 +81,7 @@ body{
 .result {
     margin: auto;
     margin-top: 40px;
-    color: rgb(241, 13, 13);
+    color: rgb(8,242,176);
     height: 40px;
     border-radius: 5px;
     width: 230px;
